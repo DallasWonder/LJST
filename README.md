@@ -1,2 +1,6 @@
-# LJST
-A Semi-supervised Joint Sentiment-Topic Model for Short Texts
+### Semi-Supervised-Topic-Sentiment-Score-Model
+
+Several methods on simultaneous detection of sentiment and topics have been proposed to obtain subjective information such as opinion, attitude and feelings expressed in texts. Most of the techniques fail to produce desired results for short texts. In this paper, we propose LJST, a labeled joint sentiment-topic model particularly for short texts. It uses a probabilistic framework based on Latent Dirichlet Allocation. Unlike other sentiment classification approaches, LJST is semi-supervised – it predicts the sentiment values for unlabeled texts in presence of a partially labeled texts with sentiment values. To address the sparsity problem in short text, we modify LJST and introduce Bi-LJST, which uses bi-terms in place of unigramsfor learning the topics by directly generating word co-occurrence patterns in each text and expressing the topics in terms of these patterns. Extensive experiments on three real-world datasets (one of them was collected and annotated by us) show that our methods perform consistently better than three other baselines in terms of document-level and topic-level sentiment prediction, and topic discovery from short texts.
+
+We ran four  experiment model on two reviews dataset "stf_50.csv" and "yelp50.csv" and compare results.
+considering TSM, RJST and JST as baseline model to evaluate model performance in comparison to proposed LJST model with unigram & Biterm respectively 
